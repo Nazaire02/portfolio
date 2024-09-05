@@ -1,0 +1,78 @@
+.container-fluid {
+    font-family: 'Montserrat', sans-serif;
+}
+
+li {
+    margin-right: 40px;
+}
+
+.nav-container {
+    margin-bottom: 40px;
+}
+
+.photo-container {
+    background-color: white;
+}
+
+.profile-photo {
+    width: 210px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: contain;
+    border: 5px solid #dee2e6;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 900;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.contact-info {
+    margin-top: 15px;
+}
+
+.contact-info p {
+    font-size: 16px;
+    color: #6c757d;
+}
+
+.contact-info .contact-icon {
+    margin-right: 8px;
+}
+
+.contact-info a {
+    color: #6c757d;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.tech-logo-circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #dee2e6;
+    padding: 5px;
+    background-color: white;
+    margin-bottom: 15px;
+}
+
+.profile-description h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.tech-stack h4 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.contact-info i {
+    color: #6c757d;
+}
