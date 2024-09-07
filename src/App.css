@@ -98,7 +98,7 @@ ul li a {
 }
 
   .card-hover {
-    border-width: 2px !important;
+    border-width: 0px !important;
   }
 
   .card-hover:hover {
