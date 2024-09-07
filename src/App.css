@@ -7,7 +7,7 @@ li {
 }
 
 .nav-container {
-    margin-bottom: 40px;
+    margin-bottom: 80px;
 }
 
 .photo-container {
@@ -15,12 +15,18 @@ li {
 }
 
 .profile-photo {
-    width: 210px;
-    height: 200px;
+    width: 270px;
+    height: 260px;
     border-radius: 50%;
     object-fit: contain;
     border: 5px solid #dee2e6;
     margin-bottom: 15px;
+}
+
+.profile-photo:hover{
+    transform: scale(1.05);
+    box-shadow: 0 7px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
 }
 
 h2 {
@@ -56,11 +62,17 @@ h2 {
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    object-fit: cover;
+    object-fit: contain;
     border: 2px solid #dee2e6;
     padding: 5px;
     background-color: white;
     margin-bottom: 15px;
+}
+
+.tech-logo-circle:hover{
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
 }
 
 .profile-description h3 {
@@ -76,3 +88,25 @@ h2 {
 .contact-info i {
     color: #6c757d;
 }
+
+ul li a {
+    color: inherit;
+    text-decoration: none;
+    background: none;
+    border: none;
+    padding: 0;
+}
+
+  .card-hover {
+    border-width: 2px !important;
+  }
+
+  .card-hover:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+  }
+
+  .card-subtitle {
+    color: #6c757d;
+  }
