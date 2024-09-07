@@ -101,6 +101,14 @@ function App() {
               </div>
             </div>
           </div>
+
+          <div className="langage-stack">
+            <h4 className='fw-bold'>Langues :</h4>
+            <ul>
+            <li>Français: Lu, écrit et parlé (langue maternelle)</li>
+            <li>Anglais: Lu, écrit et parlé (Niveau débutant)</li>
+            </ul>
+          </div>
         </div>
       </div>
       <div className="row bg-light py-5">
